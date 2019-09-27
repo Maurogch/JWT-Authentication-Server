@@ -22,6 +22,7 @@ import java.util.List;
 @Table(name = "USERS")
 public class User {
     @Id
+    @Column(name = "ID")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
